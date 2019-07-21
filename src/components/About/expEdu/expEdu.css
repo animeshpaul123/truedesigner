@@ -1,0 +1,48 @@
+.wrap {
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:not(:last-of-type) {
+    margin: 0 auto 30px; }
+  .wrap .react-reveal {
+    width: 100%; }
+  .wrap .job span {
+    font-size: 16px;
+    color: rgba(114, 114, 114, 0.8); }
+    @media (max-width: 767px) {
+      .wrap .job span {
+        display: block; } }
+  .wrap .loc {
+    font-size: 16px;
+    color: rgba(114, 114, 114, 0.8); }
+  @media screen and (min-width: 991px) {
+    .wrap {
+      font-size: 20px;
+      padding-bottom: 0; }
+      .wrap div:first-of-type {
+        width: 80%; }
+      .wrap div:last-of-type {
+        width: 20%; }
+      .wrap .react-reveal .year {
+        text-align: right;
+        display: block;
+        font-size: 0.9rem;
+        margin-top: 9px;
+        font-weight: 600; }
+      .wrap:not(:last-of-type) {
+        margin: 0 0 55px; }
+      .wrap:last-of-type {
+        margin: 0; }
+      .wrap .job, .wrap .loc {
+        text-align: left;
+        margin-bottom: 10px;
+        font-weight: 500; }
+      .wrap .job span {
+        font-size: 18px;
+        color: rgba(114, 114, 114, 0.8); }
+      .wrap .loc {
+        font-size: 18px;
+        color: rgba(114, 114, 114, 0.8);
+        margin-bottom: 40px; } }

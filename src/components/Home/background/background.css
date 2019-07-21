@@ -1,0 +1,10 @@
+.background {
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+  z-index: -1; }
+  .background .white-back {
+    flex-basis: 66%; }
+  .background .blue-back {
+    flex-basis: 34%;
+    background: #0080f675; }

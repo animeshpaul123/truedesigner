@@ -1,0 +1,22 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.InputElement {
+     width: 100%;
+     box-sizing: border-box;
+     padding: 8px 10px;
+     border-radius: 4px;
+     outline: none;
+     border: 1px solid #ccc;
+     background: #fff;
+}
+.Invalid {
+    border: 1px solid red;
+    background: rgb(236, 135, 124);
+}

@@ -1,0 +1,22 @@
+.social-icon {
+    margin-right: 10px;
+    a {
+        display: block;
+        padding: 10px 15px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        &:hover {
+            color: #fff;
+        }
+        &:hover span {
+            opacity: 0.9;
+        }
+        span {
+            font-size: 2rem;
+            margin-top: 2px;
+            opacity: 0.6;
+            color: yellow;
+            transition: opacity 0.1s ease-out;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.project {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    .overlap {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        background: #5f9ea0;
+        transition: all 0.2s ease-out;
+        h4, p {
+            color: yellow;
+        }
+        h4 {
+            font-weight: 500;
+            font-size: normal;
+            font-size: 2.2rem;
+        }
+        p {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #ccc;
+            margin-top: 20px;
+        }
+        &:hover {
+            opacity: 0.97;
+            color: #fff;
+            box-shadow: 5px 6px 23px rgb(90, 115, 89);
+        }
+    }
+}

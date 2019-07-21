@@ -1,0 +1,15 @@
+.arrow-li {
+    list-style: none;
+    margin-bottom: 10px;
+    .arrow-right {
+        font-size: 22px;
+        vertical-align: bottom;
+        padding-right: 3px;
+    }
+    a {
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

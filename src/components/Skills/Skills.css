@@ -1,0 +1,61 @@
+.skills .img-container .imgBox {
+  width: 60%;
+  margin: 0 0 0 auto; }
+  @media (max-width: 767px) {
+    .skills .img-container .imgBox {
+      margin: 0 auto 50px; } }
+
+.skills .img-container .quote span {
+  color: #0058f6;
+  font-size: 1.2rem;
+  vertical-align: text-top; }
+  .skills .img-container .quote span.left {
+    padding-right: 7px; }
+  .skills .img-container .quote span.right {
+    padding-left: 7px; }
+
+.skills .img-container .quote h2 {
+  font-size: 1.3rem;
+  padding: 0 20px; }
+
+@media (max-width: 767px) {
+  .skills .img-container {
+    margin-top: 80px; } }
+
+.skills .skills-container {
+  background: #f7f7f7;
+  padding: 50px 0 20px; }
+  .skills .skills-container .skills-inner-row {
+    max-width: 1200px;
+    margin: 20px auto 0; }
+    .skills .skills-container .skills-inner-row .col-md-6 {
+      margin-bottom: 20px; }
+
+@media screen and (min-width: 991px) {
+  .skills .img-container {
+    min-height: 100vh;
+    position: relative; }
+    .skills .img-container .imgBox {
+      width: 50%; }
+    .skills .img-container .quote {
+      position: absolute;
+      top: 140px;
+      left: 10%; }
+      .skills .img-container .quote h2 {
+        width: 300px;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.4;
+        text-align: right;
+        padding: 0;
+        letter-spacing: 1px; }
+      .skills .img-container .quote p {
+        text-align: right; }
+      .skills .img-container .quote span {
+        font-size: 1.4rem; }
+  .skills .skills-container {
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 100px; }
+    .skills .skills-container .skills-inner-row .col-md-6 {
+      margin-bottom: 40px; } }

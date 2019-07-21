@@ -1,0 +1,17 @@
+.social-icon {
+  margin-right: 10px; }
+  .social-icon a {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1); }
+    .social-icon a:hover {
+      color: #fff; }
+    .social-icon a:hover span {
+      opacity: 0.9; }
+    .social-icon a span {
+      font-size: 2rem;
+      margin-top: 2px;
+      opacity: 0.6;
+      color: yellow;
+      transition: opacity 0.1s ease-out; }

@@ -1,0 +1,28 @@
+.contact-input {
+  padding: 10px; }
+  .contact-input .input-field {
+    padding: 10px 20px;
+    outline: none;
+    width: 100%;
+    border: none; }
+  .contact-input input[type="text"], .contact-input input[type="email"] {
+    height: 60px; }
+  .contact-input textarea {
+    height: 100px; }
+  .contact-input input, .contact-input textarea {
+    border-radius: 4px; }
+    .contact-input input::placeholder, .contact-input textarea::placeholder {
+      color: #ccc;
+      font-weight: 300; }
+    .contact-input input:focus, .contact-input textarea:focus {
+      border: 1px solid #0058f6; }
+  .contact-input .invalid {
+    border: 1px solid #f32b2b;
+    background: #f8e9e7; }
+    .contact-input .invalid:focus {
+      border: 1px solid #f32b2b; }
+  .contact-input .valid {
+    border: 1px solid #5bc462;
+    background: #dff7df; }
+    .contact-input .valid:focus {
+      border: 1px solid #5bc462; }

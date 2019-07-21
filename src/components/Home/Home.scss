@@ -1,0 +1,81 @@
+.home {
+    position: relative;
+    .ti-wrapper {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        padding-bottom: 60px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .imgBox-container {
+            @media (min-width: 768px) {
+                width: 70%;
+                background: #a7cecd; //a7cecd f3f6dc
+                // box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
+                box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.16);
+                padding: 58px 56px 76px 208px;
+                border-radius: 2px;
+            }
+            width: 80%;
+            order: 1;
+            @media (max-width: 990px) {
+                margin: 80px auto;
+            }
+        }
+        .titleBox-container {
+            order: 2;
+        }
+    }
+    .small-about-wrapper {
+        margin: 0;
+        background: #f7f7f7;
+        padding: 100px 0 0;
+        position: relative;
+    }
+    .what-i-do-wrapper {
+        margin: 60px 0 0;
+        .row {
+            max-width: 1200px;
+            margin: 0 auto 0;
+        }
+    }
+    @media screen and (min-width: 991px) {
+        .ti-wrapper {
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: row;
+            min-height: 100vh;
+            .imgBox-container {
+                order: 2;
+                height: 650px;
+                position: absolute;
+                top: 12%;
+                right: 5%;
+                z-index: -1;
+            }
+            .titleBox-container {
+                order: 1;
+                position: absolute;
+                top: 30%;
+                left: 30px;
+            }
+        }
+        .small-about-wrapper {
+            min-height: 100vh;
+            margin: 250px auto 0;
+            h3 {
+                font-size: 3rem;
+            }
+        }
+        .what-i-do-wrapper {
+            margin: 70px 0 0;
+            min-height: 100vh;
+            padding: 50px 0 0;
+            .row {
+                padding-top: 20px;
+            }
+        }
+    }
+}

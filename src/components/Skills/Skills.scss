@@ -1,0 +1,81 @@
+.skills {
+    .img-container {
+        .imgBox {
+            width: 60%;
+            margin: 0 0 0 auto;
+            @media (max-width: 767px) {
+                margin: 0 auto 50px;
+            }
+        }
+        .quote {
+            span {
+                color: #0058f6;
+                font-size: 1.2rem;
+                vertical-align: text-top;
+                &.left {
+                    padding-right: 7px;
+                }
+                &.right {
+                    padding-left: 7px;
+                }
+            }
+            h2 {
+                font-size: 1.3rem;
+                padding: 0 20px;
+            }
+        }
+        @media (max-width: 767px) {
+            margin-top: 80px;
+        }
+    }
+    .skills-container {
+        background: #f7f7f7;
+        padding: 50px 0 20px;
+        .skills-inner-row {
+            max-width: 1200px;
+            margin: 20px auto 0;
+            .col-md-6 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    @media screen and (min-width: 991px) {
+        .img-container {
+            min-height: 100vh;
+            position: relative;
+            .imgBox {
+                width: 50%;
+            }
+            .quote {
+                position: absolute;
+                top: 140px;
+                left: 10%;
+                h2 {
+                    width: 300px;
+                    font-weight: 700;
+                    font-size: 2rem;
+                    line-height: 1.4;
+                    text-align: right;
+                    padding: 0;
+                    letter-spacing: 1px;
+                }
+                p {
+                    text-align: right;
+                }
+                span {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        .skills-container {
+            min-height: 100vh;
+            height: 100%;
+            padding-top: 100px;
+            .skills-inner-row {
+                .col-md-6 {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}

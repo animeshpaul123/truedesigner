@@ -1,0 +1,39 @@
+.contact-input {
+    padding: 10px;
+    .input-field {
+        padding: 10px 20px;
+        outline: none;
+        width: 100%;
+        border: none;
+    }
+    input[type="text"], input[type="email"] {
+        height: 60px;
+    }
+    textarea {
+        height: 100px;
+    }
+    input, textarea {
+        border-radius: 4px;
+        &::placeholder {
+            color: #ccc;
+            font-weight: 300;
+        }
+        &:focus {
+            border: 1px solid #0058f6;
+        }
+    }
+    .invalid {
+        border: 1px solid rgb(243, 43, 43);
+        background: rgb(248, 233, 231);
+        &:focus {
+            border: 1px solid rgb(243, 43, 43);
+        }
+    }
+    .valid {
+        border: 1px solid rgb(91, 196, 98);
+        background: rgb(223, 247, 223);
+        &:focus {
+            border: 1px solid rgb(91, 196, 98);;
+        }
+    }
+}

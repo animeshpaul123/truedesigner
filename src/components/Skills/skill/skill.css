@@ -1,0 +1,17 @@
+.skill-progress {
+  width: 100%; }
+  .skill-progress h3 {
+    margin-bottom: 7px;
+    text-align: left;
+    font-size: 20px; }
+  .skill-progress .progress {
+    overflow: visible; }
+    .skill-progress .progress .progress-bar {
+      position: relative;
+      border-radius: 2px; }
+      .skill-progress .progress .progress-bar span {
+        position: absolute;
+        right: 0;
+        top: -30px;
+        color: #000;
+        font-size: 1.1rem; }
