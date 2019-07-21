@@ -25,9 +25,12 @@
                 outline: none;
                 .error {
                     position: absolute;
-                    left: 142px;
-                    width: 500px;
+                    text-align: left;
                     font-weight: 700;
+                    left: 0;
+                    top: 50px;
+                    transform: translateX(-30%);
+                    width: 340px;
                 }
                 .loader {
                     position: absolute;
@@ -86,6 +89,10 @@
                     text-align: left;
                     margin: 23px 0 0 11px;
                     display: block;
+                    .error {
+                        left: 142px;
+                        width: 500px;
+                    }
                 }
             }
             .address {
