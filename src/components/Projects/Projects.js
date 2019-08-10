@@ -17,6 +17,9 @@ import chatImg from '../../images/chat.png';
 import emailImg from '../../images/emailInput.png';
 import searchBarImg from '../../images/searchBar.png';
 import calendarImg from '../../images/calendar.png';
+import planImg from '../../images/plan.png';
+import burgerImg from '../../images/burger.jpg';
+import InstImg from '../../images/inst.png';
 
 
 class Projects extends Component {
@@ -27,8 +30,15 @@ class Projects extends Component {
                 img: loanImg,
                 title: 'Loan App',
                 catagory: 'web application',
-                width: 12,
+                width: 6,
                 url: 'https://amount-response.herokuapp.com',
+            },
+            {
+                img: InstImg,
+                title: 'Insta-investment',
+                catagory: 'web application',
+                width: 6,
+                url: 'http://foxmantra.ml',
             },
             {
                 img: carbonImg,
@@ -101,6 +111,22 @@ class Projects extends Component {
                 color: '#000',
                 width: 12,
                 url: 'https://awesome-tesla-4da0b1.netlify.com/',
+            },
+            {
+                img: planImg,
+                title: 'Planning App',
+                catagory: 'Dev & UI',
+                color: '#000',
+                width: 12,
+                url: 'https://week-plan-v2.herokuapp.com',
+            },
+            {
+                img: burgerImg,
+                title: 'Burger App',
+                catagory: 'Dev & UI',
+                color: '#000',
+                width: 12,
+                url: 'https://burger-app-dev-new.herokuapp.com',
             },
         ]
     }

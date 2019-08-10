@@ -16,7 +16,7 @@ class Footer extends Component {
                 para: ['Home', 'About', 'Skills', 'Projects', 'Contact']
             },
             {
-                title: 'Services',
+                title: 'Navs',
                 para: ['Home', 'About', 'Skills', 'Projects', 'Contact']
             }
         ],
@@ -24,7 +24,7 @@ class Footer extends Component {
             title: 'Have a question?',
             address: 'Choclate Factory Road, BTM, Bangalore',
             phone: '+918248742693',
-            email: 'animesh.paulofficial@gmail.com',
+            email: 'animeshpaul.unofficial@gmail.com',
         },
         about: {
             title: 'Lets talk about',

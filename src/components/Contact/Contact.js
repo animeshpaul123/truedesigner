@@ -74,7 +74,14 @@ class Contact extends Component {
         for (let key in contactInfo) {
             formData[key] = contactInfo[key].value;
         }
-        axios.post('https://email-api-paul.herokuapp.com/mail/api', formData)
+        let axiosConfig = {
+            headers: {
+                'Content-Type': 'application/json;charset=UTF-8',
+                "Access-Control-Allow-Origin": "*",
+            }
+        }
+        console.log(formData)
+        axios.post('https://email-api-paul.herokuapp.com/mail/api', JSON.stringify(formData), axiosConfig)
         .then(res => {
             if (res.status == 200) {
                 this.setState({status: +res.status})

@@ -17,5 +17,11 @@ footer {
     width: 100%; }
   footer .footer-widget-address li {
     margin-bottom: 10px; }
+    footer .footer-widget-address li:last-of-type {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      footer .footer-widget-address li:last-of-type i {
+        margin-top: 3px; }
     footer .footer-widget-address li .text {
       padding-left: 13px; }

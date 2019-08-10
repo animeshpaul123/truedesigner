@@ -27,6 +27,14 @@ footer {
     .footer-widget-address {
         li {
             margin-bottom: 10px;
+            &:last-of-type {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i {
+                    margin-top: 3px;
+                }
+            }
             .text {
                 padding-left: 13px;
             }

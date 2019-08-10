@@ -23,24 +23,24 @@ class Home extends Component {
         landingImg: [homeSvg, happySvg],
         smallAbout: {
             name: 'Animesh Paul',
-            role: '-A Front End Developer from Bangalore',
-            desc: 'Provide a valid, navigable address as the href value. If you cannot provide a valid href The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more',
+            role: '-Tablet Design comming soon ! !',
+            desc: 'Gale Partners (Front End Developer Intern). Worked in BMO Economics and BMO Commercial projects. Collaborated with different developers, agile environment, transferring quality check',
             heading: 'Short Note about Me',
         },
         whatIDo: [
             {
                 title: 'UI/UX',
-                desc: 'Provide a valid, navigable address as the href value. If you cannot provide a valid',
+                desc: 'UI and UX development',
                 icon: 'fas fa-compact-disc',
             },
             {
                 title: 'Web Design',
-                desc: 'Provide a valid, navigable address as the href value. If you cannot provide a valid',
+                desc: 'Web desigining and UI improvement',
                 icon: 'fas fa-palette',
             },
             {
                 title: 'Web Development',
-                desc: 'Provide a valid, navigable address as the href value. If you cannot provide a valid',
+                desc: 'Web application development',
                 icon: 'fas fa-dumbbell',
             }
         ]
